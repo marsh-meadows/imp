@@ -1,4 +1,4 @@
-- tileId: Space
+- tileId: FloorSteel
   assignments:
   - 0: 8
 - action: ActionMappingEraser
@@ -7,10 +7,10 @@
 - tileId: Plating
   assignments:
   - 0: 7
-- tileId: FloorSteel
+- entity: Firelock
   assignments:
   - 0: 6
-- entity: Firelock
+- entity: FirelockEdge
   assignments:
   - 0: 5
 - entity: Grille
@@ -64,7 +64,7 @@
 - entity: CableHV
   assignments:
   - 2: 2
-- entity: SubstationBasic
+- entity: PoweredSmallLight
   assignments:
   - 2: 4
 - entity: Poweredlight
@@ -73,39 +73,39 @@
 - entity: EmergencyLight
   assignments:
   - 2: 7
-- entity: SMESBasic
-  assignments:
-  - 2: 5
-- entity: TableWood
-  assignments:
-  - 3: 0
-- entity: Table
-  assignments:
-  - 3: 1
-- entity: ChairWood
-  assignments:
-  - 3: 2
-- entity: Chair
-  assignments:
-  - 3: 3
-- entity: ChairOfficeLight
-  assignments:
-  - 3: 4
-- entity: StoolBar
-  assignments:
-  - 3: 6
-- entity: Stool
-  assignments:
-  - 3: 7
-- entity: Rack
-  assignments:
-  - 3: 8
-- entity: ChairOfficeDark
-  assignments:
-  - 3: 5
-- entity: LampGold
-  assignments:
-  - 3: 9
+# - entity: SMESBasic
+#   assignments:
+#   - 2: 5
+#- entity: TableWood
+#  assignments:
+#  - 3: 0
+#- entity: Table
+#  assignments:
+#  - 3: 1
+#- entity: ChairWood
+#  assignments:
+#  - 3: 2
+#- entity: Chair
+#  assignments:
+#  - 3: 3
+#- entity: ChairOfficeLight
+#  assignments:
+#  - 3: 4
+#- entity: StoolBar
+#  assignments:
+#  - 3: 6
+#- entity: Stool
+#  assignments:
+#  - 3: 7
+#- entity: Rack
+#  assignments:
+#  - 3: 8
+#- entity: ChairOfficeDark
+#  assignments:
+#  - 3: 5
+#- entity: LampGold
+#  assignments:
+#  - 3: 9
 - entity: DisposalPipe
   assignments:
   - 4: 0
@@ -130,9 +130,9 @@
 - entity: DisposalTrunk
   assignments:
   - 4: 7
-- entity: SignDisposalSpace
-  assignments:
-  - 4: 8
+# - entity: SignDisposalSpace
+#   assignments:
+#   - 4: 8
 - entity: Windoor
   assignments:
   - 5: 0
@@ -143,9 +143,9 @@
 - entity: WindowReinforcedDirectional
   assignments:
   - 5: 2
-- entity: PlasmaWindowDirectional
-  assignments:
-  - 5: 3
+#- entity: PlasmaWindowDirectional
+#  assignments:
+#  - 5: 3
 - entity: Railing
   assignments:
   - 5: 6
@@ -171,19 +171,19 @@
 - entity: AirlockSecurityLocked
   assignments:
   - 6: 3
-- entity: AirlockCommand
+- entity: AirlockCommandLocked
   assignments:
   - 6: 4
-- entity: AirlockScience
+- entity: AirlockScienceLocked
   assignments:
   - 6: 5
-- entity: AirlockMedical
+- entity: AirlockMedicalLocked
   assignments:
   - 6: 6
-- entity: AirlockEngineering
+- entity: AirlockEngineeringLocked
   assignments:
   - 6: 7
-- entity: AirlockCargo
+- entity: AirlockCargoLocked
   assignments:
   - 6: 8
 ...
