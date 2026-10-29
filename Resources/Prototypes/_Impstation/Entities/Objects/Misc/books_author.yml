@@ -336,10 +336,10 @@
     layers:
     - state: paper
     - state: cover_base
-      color: "#f7efb0"
-    - state: decor_wingette_circle
       color: "#29542b"
-    - state: icon_text
+    - state: decor_wingette_circle
+      color: "#f7efb0"
+    - state: icon_text3
     - state: icon_planet
   - type: Paper
     content: book-text-oumerth1
@@ -365,10 +365,10 @@
     layers:
     - state: paper
     - state: cover_base
-      color: "#f7efb0"
-    - state: decor_wingette_circle
       color: "#272a63"
-    - state: icon_text
+    - state: decor_wingette_circle
+      color: "#f7efb0"
+    - state: icon_text3
     - state: icon_planet
   - type: Paper
     content: book-text-oumerth2
@@ -394,10 +394,10 @@
     layers:
     - state: paper
     - state: cover_base
-      color: "#f7efb0"
-    - state: decor_wingette_circle
       color: "#7d1a27"
-    - state: icon_text
+    - state: decor_wingette_circle
+      color: "#f7efb0"
+    - state: icon_text3
     - state: icon_planet
   - type: Paper
     content: book-text-oumerth3
