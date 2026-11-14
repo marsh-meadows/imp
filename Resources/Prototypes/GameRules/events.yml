@@ -57,7 +57,7 @@
     children:
     - !type:NestedSelector # DV
       tableId: BasicAntagEventsTableDV
-    - id: ClosetSkeleton
+    #- id: ClosetSkeleton # imp
     - id: ParadoxCloneSpawn
     - !type:NestedSelector
       tableId: DerelictBorgEventTable
